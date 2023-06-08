@@ -1,0 +1,124 @@
+.flex-flex{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.flex-flex img{
+    padding: 3%;
+    align-items: baseline;
+}
+
+.clients h2{
+     text-align: center;
+     font-size: 220%;
+     margin-top: 5%;
+     color: white;
+     font-family: 'Arsenal', sans-serif;
+}
+
+#foto_b{
+    margin-top: -0.5%;
+}
+
+#foto_c{
+    margin-top: -2.5%;
+}
+
+#foto_d{
+    margin-top: -3%;
+}
+
+#foto_e{
+    margin-top: -4%;
+}
+
+
+
+.flex-flex-line{
+    margin-left: 10%;
+    margin-top: -2.5%;
+}
+.flex-flex-line img{
+    padding-left: 8%;
+}
+
+#foto_g{
+    margin-bottom: -1%;
+}
+
+#foto_h{
+    margin-bottom: -3%;
+}
+ 
+#foto_i{
+    margin-top: -2%;
+}
+
+#foto_l{
+    margin-top: -1%;
+}
+
+#foto_m{
+    margin-top: -2%;
+}
+
+#foto_n{
+    margin-top: -3%;
+}
+
+.clients2{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 450px){
+    .clients{
+        display: none;
+    }
+
+    .clients2{
+        display: block;
+    }
+
+    .clients2 h2{
+        font-size: 200%;
+        color: rgb(255, 255, 255);
+        font-family: 'Arsenal', sans-serif;
+        text-align: center;
+        margin-bottom: 20%;
+   }
+
+
+    .flex-flex{
+        display: flex;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    
+    .flex-flex img{
+        padding: 3%;
+        align-items: baseline;
+    }
+
+    #a11{
+       margin-left: 8%;
+    }
+
+    #a12{
+        padding-left: 17%;
+     }
+     #a17{
+        margin-left: 6%;
+     }
+
+     #a18{
+        padding-left: 15%;
+     }
+
+     #a20{
+        padding-left: 5%;
+        margin-top: 10%;
+     }
+}

@@ -1,0 +1,291 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+html{
+   width: 100%;
+}
+
+header{
+    background-image: url('../../pictures/clientes/processador-de-computador-central-com-placa-de-circuito-integrada-de-microchip-de-luzes-neon-para-servidor.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    opacity: 1;
+}
+
+
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 30;
+    height: 90px;
+    transition: 600ms;
+    background-color: #04021472;
+    opacity: 1;
+    margin-right: 10%;
+}
+
+#none{
+   opacity: 0;
+}
+
+.head a{
+    margin-top: 1.5%;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 110%;
+  
+}
+
+.head a:hover{
+    color:#28939d;
+}
+
+.head img{
+    width: 250px;
+    height: 250px;
+    margin-top: -7%;
+    margin-left: -3%;
+}
+
+.head  button{
+    width: 250px;
+    height: 30px;
+    background-color: 
+    #28939d;
+    color: #ffffff;
+    border: 2px solid 
+    #28939d;
+    border-radius: 15px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 100%;
+    transition: 500ms;
+    text-shadow: 0 0 8px rgb(255, 255, 255), 0 0 29 rgb(19, 190, 19);
+    box-shadow:  0 0 128px 32px 
+    #28939d;
+    cursor: pointer;
+    position: absolute;
+    z-index: 900;
+    
+}
+
+
+.head  button{
+    animation: animar 1.3s linear infinite;
+}
+
+@keyframes animar{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+       transform: scale(1.2);
+    }
+
+    100%{
+       transform: scale(1);
+    }
+}
+
+
+/*.head button:hover{
+    border:#021f59;
+    cursor: pointer;
+    transition: 500ms;
+    background-color: white;
+    color: #021f59;
+}*/
+
+.digita {
+    color: white;
+    font-family: 'Arsenal', sans-serif;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 200%;
+}
+
+
+
+
+
+.drop_services{
+    width: 120px;
+   text-align: center;
+    z-index: 50;
+    position: absolute;
+    background-color: #000000be;
+    border-radius: 3px;
+    margin-left: -2.5%;
+    margin-top: 0.5%;
+    display: none;
+   }
+  
+   .drop_services a{
+    color: white;
+    margin-bottom: 5%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 80%;
+    margin-top: 3%;
+   
+   }
+  
+   .ser{
+    padding: 4.5%;
+    transition: 300ms;
+   }
+  
+   .ser:hover{
+       background-color: rgb(40, 39, 39);
+       transition: 300ms;
+   }
+  
+   .s{
+    margin-top: 1.5%;
+    height: 30px;
+   }
+  
+  .s:hover .drop_services{
+    display: block;
+    transform: top center;
+    transition: 1000ms;
+  }
+
+  .menu{
+    display: none;
+  }
+
+
+@media only screen and (max-width: 450px){
+    .head a{
+       display: none
+    }
+
+    .head button{
+        width: 300px;
+        height: 40px;
+        margin-top: 1.3%;
+        background-color: #021f59;
+        color: white;
+        border: 1px solid white;
+        border-radius: 15px;
+        font-family: 'Arsenal', sans-serif;
+        font-size: 100%;
+        transition: 500ms;
+        margin-top: 40%;
+margin-left: -50%;
+margin-right: 50px;
+    }
+
+    .head{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2%;
+        background-color: transparent;
+        position: absolute;
+        width: 100%;
+        z-index: 30;
+        height: 200px;
+        transition: 600ms;
+        background-color: #04021472;
+        opacity: 1;
+    }
+
+    .head img{
+        width: 250px;
+        height: 250px;
+        margin-top: -19%;
+        margin-left: -3%;
+    }
+
+    .digita {
+        color: white;
+        font-family: 'Arsenal', sans-serif;
+        text-align: center;
+        padding-top: 80%;
+        font-size: 150%;
+    }
+
+    .menu{
+        display: block;
+        position: absolute;
+        width: 60%;
+        height: 100%;
+        z-index: 200;
+        display: grid;
+        margin-left: 40%;
+        
+    }
+
+    #opend{
+        display: 
+        block;
+        margin-top: 15%;
+        margin-left: 70%;
+    }
+
+    #closed{
+        margin-top: 5%;
+        margin-left: 70%;
+        display: none;
+    }
+
+    .menurresponsive a, .menurresponsive p{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-family: 'Arsenal', sans-serif;
+        display: grid;
+        padding-top: 25%;
+    }
+
+    .menurresponsive{
+        padding: 10%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        background-color: black;
+        width: 90%;
+        height: 90%;
+        transition: 1000ms;
+        transform: matrix3d(-15%);
+        
+    }
+
+    .ser{
+       
+        transition: 300ms;
+        margin-left: 5%;
+        margin-top: -15%;
+        height: 40px;
+        width: 100%;
+        display: none;
+       }
+
+      .menuservice{
+        display: non;
+      }
+
+       .pic{
+        margin-top: 40%;
+        width: 100px;
+        height: 40px;
+       }
+
+       .pic img{
+        padding-left: 10%;
+       }
+}

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.service {
+    text-align: center;
+    width: 390px;
+    height: 140px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 500ms;
+    margin-left: 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px rgba(4, 4, 4, 0.1);
+    margin-bottom: 10%;
+    z-index: 8;
+    margin-top: 5%;
+    background-color: white;
+  }
+
+  .service{
+    margin-bottom: -2%;
+    cursor: pointer;
+  }
+
+  .service:hover{
+    background-color: #C8C8C8 
+  }
+
+
+  .service a{
+    border-color: #002aff;
+  }
+
+  .service-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 10%;
+  }
+
+  .service-description {
+    font-size: 17px;
+    margin-top: 8%;
+  }
+
+  .service-price {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+
+  .service-button {
+    display: inline-block;
+    padding: 8px 16px;
+    border-color: rgb(41, 41, 103);
+    background-color: white;
+    color: #bf6b04;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 700ms;
+    margin-top: 15%;
+  }
+
+  .service-button:hover {
+    background-color: rgb(41, 41, 103);
+    color: white;
+    transition: 700ms;
+  }
+
+  .servicos{
+    display: flex;
+  }
+
+  .service img{
+    z-index: 2;
+  }
+
+  .service p{
+      color:rgb(41, 41, 103);
+      font-size: 80%;
+      font-family: 'Arsenal', sans-serif;
+      margin-top: -4%;
+  }
+
+  .service h2{
+    color: rgb(41, 41, 103);
+    font-family: 'Arsenal', sans-serif;
+
+  }
+
+  .pense h1{
+    text-align: center;
+    height: 50px;
+    width: 42%;
+    margin-left: 29%;
+    padding-top: 5%;
+    font-family: 'Arsenal', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white
+  }
+
+ .flex{
+  display: flex;
+  margin-right: 5%;
+  padding-left: 5%;
+ }
+
+ .pense{
+ background-color: black;
+  height: 600px;
+  margin-left: -1%;
+ }
+
+ .pense h1{
+ 
+  font-size: 250%;
+ 
+ }
+
+
+
+ 
+
+
+@media only screen and (max-width: 450px){
+  .flex{
+    display: grid;
+    margin-right: 5%;
+    padding-left: 5%;
+   }
+
+   .pense{
+    width: 100%;
+    height: 100%;
+   }
+
+   .service{
+    margin-bottom: -2%;
+    cursor: pointer;
+    width: 90%;
+  }
+}

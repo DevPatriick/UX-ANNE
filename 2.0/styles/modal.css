@@ -1,0 +1,73 @@
+.fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(117, 117, 117);
+    z-index: 9;
+    display: none;
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+#modal, #modal2, #modal3, #modal4, #modal5,#modal6,#modal7,#modal8{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 90%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 2%;
+    display: none;
+    transition: 500ms;
+    color: white
+}
+
+.modal-body p{
+     color: rgb(41, 41, 103);
+     font-family: 'Arsenal', sans-serif;
+}
+
+
+.modal-header h2{
+     color: rgb(41, 41, 103);
+     font-family: 'Arsenal', sans-serif;
+}
+
+#clone-modal, #clone-modal2, #clone-modal3, #clone-modal4,#clone-modal5,#clone-modal6,#clone-modal7,#clone-modal8{
+    background-color:transparent;
+    color: #bf6b04;
+    width: 15%;
+    height: 30px;
+    border: none;
+    transition: 400ms;
+    font-size: 200%;
+    margin-top: -30%;
+    margin-right: -18%;
+    font-family: 'Arsenal', sans-serif;
+}
+
+#clone-modal:hover,#clone-modal2:hover,#clone-modal3:hover,#clone-modal4:hover,#clone-modal5:hover,#clone-modal6:hover,
+#clone-modal7:hover, #clone-modal8:hover{
+    border-radius: 3px;
+    background-color: transparent;
+    color: #021f59;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(185, 185, 184);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Arsenal', sans-serif;
+}
+

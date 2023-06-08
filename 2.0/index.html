@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="pictures/clientes/5.png"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/depoimentos.css">
+    <link rel="stylesheet" href="css/chosen.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/client.css">
+    <link rel="stylesheet" href="css/perguntas.css">
+    <link rel="stylesheet" href="css/caixacontato.css">
+    <link rel="stylesheet" href="css/time.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <title>UX AN.NE</title>
+</head>
+<body>
+
+    <!--  CRIANDO HEADER -->
+    <div class="header">
+        <img class="logo-left" src="pictures/clientes/5.png" alt="Logo" width="18%">
+        <div class="links-right">
+            <a href="#">Quem Somos</a>
+            <a href="#">Serviços</a>
+            <a href="https://forms.gle/RWDEyqvJZViBXNLGA">Diagnóstico</a>
+            <a href="#">Contato</a>
+            <button>Faça um diagnóstico</button>
+        </div>
+    </div>
+
+    <!--  PRIMEIRO CARROSSEL  -->
+    <div class="carousel">
+        <img src="/clientes/processador-de-computador-central-com-placa-de-circuito-integrada-de-microchip-de-luzes-neon-para-servidor.jpg" width="100%">
+      </div>
+
+      <div class="espec">
+        <h1>SOMOS ESPECIALISTAS <BR> EM PERFORMECE DIGITAL!</h1>
+      </div>
+
+      
+
+      <div class="pense">
+        <h1>SERVIÇOS</h1>
+        <div class="flex">
+        <div class="service" id="open_modal">
+            <img src="pictures/negocio-digital.png" alt="product" width="20%">
+            <h2 class="service-title">Formatação Digital</h2>
+            <p class="service-description"></p>
+        </div>
+
+
+        <div class="service" id="open_modal2">
+            <img src="pictures/local-na-rede-internet.png" alt="product" width="20%">
+            <h2 class="service-title">Landing Pages</h2>
+            <p class="service-description"> </p>
+        </div>
+
+        <div class="service" id="open_modal3">
+            <img src="pictures/e-commerce.png" alt="product" width="20%">
+            <h2 class="service-title">E-Commerce</h2>
+            <p class="service-description"></p>
+        </div>
+        <div class="service" id="open_modal4">
+            <img src="pictures/codigo-de-exibicao.png" alt="product" width="20%">
+            <h2 class="service-title">Sites Institucionais</h2>
+            <p class="service-description"></p>
+        </div>
+        </div>
+
+
+        <div class="flex">
+            <div class="service" id="open_modal5">
+                <img src="pictures/campanha-digital.png" alt="product" width="20%">
+                <h2 class="service-title">Campanhas</h2>
+                <p class="service-description"></p>
+            </div>
+    
+            <div class="service" id="open_modal6">
+                <img src="pictures/manutencao.png" alt="product" width="20%">
+                <h2 class="service-title">Manutenção de infraestrutura</h2>
+                <p class="service-description"></p>
+            </div>
+    
+            <div class="service" id="open_modal7">
+                <img src="pictures/marketing-de-midia-social.png" alt="product" width="20%">
+                <h2 class="service-title">Gestão de redes sociais</h2>
+                <p class="service-description"></p>
+            </div>
+            <div class="service" id="open_modal8">
+                <img src="pictures/manutencao (1).png" alt="product" width="20%">
+                <h2 class="service-title">Otimização de Sites</h2>
+                <p class="service-description"></p>
+            </div>
+            </div>
+
+            
+      </div>
+      <!----------------------------------------------MODALLL-->
+      <div class="fade"></div>
+      <div id="modal">
+        <div class="modal-header">
+            <h2>FORMATAÇÃO DIGITAL</h2>
+            <button id="clone-modal">X</button>
+        </div>
+        <div class="modal-body">
+            <p>Com a aceleração do mercado digital, ter sua marca on- line se tornou imprescindível. São diversos os recursos para se ter uma presença forte e consolidada no mercado, que demanda conhecimentos bem específicos.</p>
+        </div>
+      </div>
+
+      <div class="fade"></div>
+      <div id="modal2">
+        <div class="modal-header">
+            <h2>LANDING PAGES</h2>
+            <button id="clone-modal2">X</button>
+        </div>
+        <div class="modal-body">
+            <p>Uma landing page tem como principal objetivo a conversão de leads, ou seja, fazer com que o visitante se torne um cliente, passando para a próxima etapa do funil de vendas.</p>
+        </div>
+      </div>
+
+      <div class="fade"></div>
+      <div id="modal3">
+        <div class="modal-header">
+            <h2>E-COMMERCE</h2>
+            <button id="clone-modal3">X</button>
+        </div>
+        <div class="modal-body">
+            <p>Um site de e-commerce é aquele que permite que as pessoas comprem e vendam bens físicos, serviços e produtos digitais pela internet, em vez de em um local físico.</p>
+        </div>
+      </div>
+
+      <div class="fade"></div>
+      <div id="modal4">
+        <div class="modal-header">
+            <h2>SITE INSTITUCIONAL</h2>
+            <button id="clone-modal4">X</button>
+        </div>
+        <div class="modal-body">
+            <p>Um site institucional nada mais é do que um espaço para a sua empresa na web. Através de páginas virtuais, você irá apresentar a sua empresa, informar os seus serviços e promover a sua marca.</p>
+        </div>
+      </div>
+
+      <div class="fade"></div>
+      <div id="modal5">
+        <div class="modal-header">
+            <h2>CAMPANHAS</h2>
+            <button id="clone-modal5">X</button>
+        </div>
+        <div class="modal-body">
+            <p>Social ADS são essenciais para uma estratégia de distribuição na web. É preciso dominar esses tipos de anúncios para que as empresas desenvolvam uma presença forte e consistente nos ambientes em que os usuários estão. Desse modo, o aumento de conversões e de vendas é um resultado natural.</p>
+        </div>
+      </div>
+
+      <div class="fade"></div>
+      <div id="modal6">
+        <div class="modal-header">
+            <h2>MANUTENÇÃO DE INFRAESTRUTURA</h2>
+            <button id="clone-modal6">X</button>
+        </div>
+        <div class="modal-body">
+            <p>Limpeza e manutenção de banco de dados, sites e servidores
+                Atualização dos certificados de segurança e outras verificações de segurança digital +LGPD - lei da proteção de dados
+                Otimização dos canais de comunicação para melhor performance digital, navegação de seus clientes em seus canais.</p>
+        </div>
+      </div>
+
+      <div class="fade"></div>
+      <div id="modal7">
+        <div class="modal-header">
+            <h2>GESTÃO DE REDES SOCIAIS</h2>
+            <button id="clone-modal7">X</button>
+        </div>
+        <div class="modal-body">
+            <p>O gerenciamento de redes sociais consiste em garantir uma boa estratégia multicanal, visando encontrar o equilíbrio entre atendimento ao cliente, criação de conteúdo e análise de resultados dentro dos canais sociais da sua empresa</p>
+        </div>
+      </div>
+
+      <div class="fade"></div>
+      <div id="modal8">
+        <div class="modal-header">
+            <h2>REFORMA DE SITES PREEXISTENTES</h2>
+            <button id="clone-modal8">X</button>
+        </div>
+        <div class="modal-body">
+            <p>Otimização de sites pode ser entendido como o conjunto de estratégias traçadas para que seu site seja melhor localizado nos resultados de sites de busca, como o Google. Mas otimização, no sentido de desempenho, também é a alteração dos recursos do site, de forma que ele seja transferido e aberto mais rapidamente</p>
+        </div>
+      </div>
+
+      <!-- POR QUE NOS ESCOLHER -->
+
+      <div class="pense-2">
+        <h1>PILARES DO SUCESSO DIGITAL</h1>
+       
+
+        <div class="flex">
+            <div class="product">
+            <img src="pictures/codigo-de-exibicao.png" alt="product" width="40%">
+            <h2 class="servi">PLANEJAMENTO ESTRATÉGICO DE ALTO NÍVEL</h2>
+        </div>
+
+        <div class="product">
+            <img src="pictures/comentar-alt-check.png" alt="product" width="40%">
+            <h2 class="servi">POSICIONAMENTO CORRETO EM TODOS OS CANAIS DIGITAIS</h2>
+        </div>
+
+        <div class="product">
+            <img src="pictures/grafico-histograma.png" alt="product" width="40%">
+            <h2 class="servi">CAMPANHAS TIMIZADAS E DIRECIONADAS AO PÚBLICO CORRETO</h2>
+        </div>
+
+        <div class="product">
+            <img src="pictures/atualizar (1).png" alt="product" width="40%">
+            <h2 class="servi">ANÁLISE DE PERFORMANDE E GERAÇÃO DO CICLO VIRTUOSO DE MARKETING</h2>
+        </div>
+        </div>
+      </div>
+      <!-- CLIENTES -->
+
+        <div class="clients">
+            <h2>Alguns Clientes</h2>
+            <div class="logo_clients">
+                <div class="flex-flex">
+                    <img id='foto_a' src="pictures/clientes/cropped-logo-carrara_ico_.png" alt="carrara" width="100px" height="100px">
+                    <img id='foto_b' src="pictures/clientes/beauty.png" alt="beauty" width="115px" height="115px">
+                    <img id='foto_c' src="pictures/clientes/1.jpg" alt="lia" width="150px" height="160px">
+                    <img id='foto_d' src="pictures/clientes/2.jpg" alt="velho oeste" width="180px" height="180px">
+                    <img id='foto_e' src="pictures/clientes/franchs.jpg" alt="franchisng" width="180px" height="180px">
+                </div>
+                <div class="flex-flex">
+                    <img id='foto_f' src="pictures/clientes/estrela.png" alt="estrela" width="150px" height="150px">
+                    <img id='foto_g' src="pictures/clientes/lar.png" alt="lar" width="115px" height="115px">
+                    <img id='foto_h' src="pictures/clientes/pitza.png" alt="pitza" width="120px" height="120px">
+                    <img id='foto_i' src="pictures/clientes/toni.png" alt="toni" width="180px" height="180px">
+                    <img id='foto_j' src="pictures/clientes/veit.png" alt="veit" width="100px" height="100px">
+                </div>
+                <div class="flex-flex">
+                    
+                </div>
+            </div>
+        </div>
+    
+
+       <section>
+        <div class="blogs">
+            <h1>BLOG</h1>
+            <div class="cont">
+            <div class="conteudo">
+                <img src="./pictures/especialista-em-ti-verificando-o-codigo-no-computador-no-escritorio-escuro-a-noite_1098-18699.avif" alt="">
+                <h2>A importância de formatar seu negócio para o meio digital</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates dolorem rem officiis sint sequi quam et maxime aut nam? Asperiores doloribus sint minus magnam hic, eos mollitia expedita unde aliquid totam sunt recusandae in est numquam exercitationem, autem tenetur quaerat?</p>
+            </div>
+            <div class="conteudo">
+                <img src="./pictures/especialista-em-ti-verificando-o-codigo-no-computador-no-escritorio-escuro-a-noite_1098-18699.avif" alt="">
+                <h2>Tecnologia e Neuromarketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates dolorem rem officiis sint sequi quam et maxime aut nam? Asperiores doloribus sint minus magnam hic, eos mollitia expedita unde aliquid totam sunt recusandae in est numquam exercitationem, autem tenetur quaerat?</p>
+            </div>
+            <div class="conteudo">
+                <img src="./pictures/especialista-em-ti-verificando-o-codigo-no-computador-no-escritorio-escuro-a-noite_1098-18699.avif" alt="">
+                <h2>O que é planejamento estratégico digital?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates dolorem rem officiis sint sequi quam et maxime aut nam? Asperiores doloribus sint minus magnam hic, eos mollitia expedita unde aliquid totam sunt recusandae in est numquam exercitationem, autem tenetur quaerat?</p>
+            </div>
+            </div>
+        </div>
+       </section>
+           
+
+                
+
+      <!--  RODAPÉ  -->
+
+      <footer>
+        <div class="contato">
+            <div class="contatos">
+                <img class='contac'src="pictures/footer/whatsappp.png" alt="whats">
+                <img class='contac'src="pictures/footer/instagram.png" alt="instagram">
+                <img class='contac'src="pictures/footer/facebook.png" alt="facebook">
+                <div class="linha"></div>
+            </div>
+           
+        </div>
+
+        <div class="mapa mapa2">
+            <h5>CONTATOS</h5>
+            <a href="#"><p>contato@uxanne.com.br</p></a>
+            <a href="#"><p>(51)9999-9999</p></a>
+            <a href="#"><p>@uxanne</p></a>
+        </div>
+          
+        <div class="mapa">
+            <h5>MAPA DO SITE</h5>
+            <p>Quem somos</p>
+            <p>Serviços</p>
+            <p>Diagnóstico</p>
+            <p>Blog</p>
+            <p>Contato</p>
+        </div>
+
+       
+
+        <div class="endereco">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.957804567226!2d-51.13808228488502!3d-30.03806838188449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951976329d7913f7%3A0x7ddde8f5357f06bc!2sRua%20Tenente%20Ary%20Tarrag%C3%B4%2C%20440%20-%20Jardim%20Itu%2C%20Porto%20Alegre%20-%20RS%2C%2091225-000!5e0!3m2!1spt-BR!2sbr!4v1684558577864!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+        <div class="direitos">
+            <p>Todos os direitos reservados</p>
+        </div>
+    
+      </footer>
+     
+
+    
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/87284289-25d7-41b8-82bd-b77f876d342c-loader.js" ></script>
+
+      <script src="control/header.js"></script>
+      
+      <script src="control/flutuante.js"></script>
+      <script src="control/depoimentos.js"></script>
+      <script src="control/footer.js"></script>
+      <script src="control/perguntas.js"></script>
+      <script src="control/clients.js"></script>
+      <script src="control/modal.js"></script>
+</body>
+</html>

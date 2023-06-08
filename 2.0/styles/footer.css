@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    margin-bottom: -5%;
+    border-top: 1px solid rgb(212, 212, 212);
+}
+
+footer h5{
+    color: #ffffff;
+    font-family: 'Arsenal', sans-serif;
+}
+.mapa a{
+    text-decoration: none;
+    list-style: none;
+    color: white
+}
+.endereco{
+    padding-bottom: 5%;
+}
+
+.mapa h5, .contato h5{
+    font-size: 150%;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.mapa p {
+    padding-top: 12%;
+    transition: 500ms;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.mapa1 p{
+   padding-top: 9%;
+   font-family: 'Arsenal', sans-serif;
+}
+
+.mapa2 p{
+    padding-top: 10%;
+    font-family: 'Arsenal', sans-serif;
+ }
+.mapa p:hover{
+    color:  #28939d;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+.mapa{
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+
+.contato{
+
+    display: flex;
+}
+
+.contatos img{
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+
+.contatos{
+    display: grid;
+    margin-left: -60%;
+    margin-top: 50%;
+}
+
+.contatos img{
+     padding-top: 60%;
+     margin-top: -10%;
+}
+
+
+
+.linha{
+    width: 3px;
+    margin-top: 20%;
+    height: 140px;
+    background-color: #28939d;
+    margin-left: 70%;
+}
+
+.contac:hover{
+    color:#28939d;
+    cursor: pointer;
+}
+
+.direitos{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    display: flex;
+}
+ .direitos p{
+    margin-left: 42%;
+    margin-top: 4%;
+    font-family: 'Arsenal', sans-serif;
+ }
+
+
+ @media only screen and (max-width: 450px){
+    footer{
+        background-color: #000000;
+        color: white;
+        display: grid;
+        justify-content: space-evenly;
+        padding-top: 5%;
+        margin-bottom: -5%;
+    }
+
+    .contatos{
+        display: none;
+    }
+
+    .mapa{
+        text-align: center;
+
+    }
+
+    .mapa p {
+        padding: 1%;
+        transition: 500ms;
+        font-family: 'Arsenal', sans-serif;
+        padding-bottom: 3%;
+        width: 100%;
+    }
+
+    .mapa{
+        margin-top: 5%;
+    }
+
+    .linha{
+       display: none;
+    }
+
+    footer h5{
+        color: #ffffff;
+        font-family: 'Arsenal', sans-serif;
+        padding-bottom: 7%;
+        padding-top: 4%;
+    }
+
+    .endereco iframe{
+        padding-bottom: 5%;
+        width: 80%;
+        
+    }
+
+    .endereco{
+        margin-top: 50%;
+    }
+
+    .direitos{
+        background-color: #000000;
+        text-align: center;
+        color: white;
+        font-size: 100%;
+        display: flex;
+        margin-top: 5%;
+        margin-left: -25%;
+    }
+ }

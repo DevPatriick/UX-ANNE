@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quemsomos h1{
+    text-align: center;
+    color: white;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.text{
+    display: flex;
+}
+
+.quemsomos{
+    padding-top: 8%;
+    background-color: black;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    padding-bottom: 5%;
+}
+
+.quemsomos p{
+    color: white;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 120%;
+    margin-top: 5%;
+    margin-left: 6%;
+     margin-right: 6%;}
+
+
+     @media only screen and (max-width: 450px){
+        .text{
+            display: grid;
+        }
+
+        .text img{
+            width: 80%;
+            margin-left: 10%;
+        }
+     }
