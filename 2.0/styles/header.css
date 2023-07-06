@@ -80,8 +80,7 @@ header{
     
 }
 
-
-.head  button{
+header img{
     animation: animar 1.3s linear infinite;
 }
 
